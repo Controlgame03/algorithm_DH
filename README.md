@@ -1,5 +1,5 @@
 # algorithm_DH
 
-Программа для имитации получения общего секретного ключа для двух людей.
+A program to simulate obtaining a shared secret key for two people.
 
-Используется протокол Диффи — Хеллмана.
+The Diffie-Hellman protocol is used.
