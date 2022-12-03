@@ -30,16 +30,16 @@ int main()
     long long int bob_session_key;
     long long int alice_session_key;
 
-    cout << "Нажмите: \n1 --- чтобы ввести свой приватные ключи\n2 --- чтобы сгенерировать случайные ключи" << endl;
+    cout << "Press: \n1 --- input user key\n2 --- input random key" << endl;
     int flag;
     cin >> flag;
 
     switch (flag)
     {
     case 1:
-        cout << "Ключ Алисы ---> ";
+        cout << "Alice private key ---> ";
         cin >> alice_private_key;
-        cout << "Ключ Боба --->";
+        cout << "Bob public key --->";
         cin >> bob_private_key;
         break;
     case 2:
